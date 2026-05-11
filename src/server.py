@@ -3,7 +3,8 @@ import yaml
 import torch
 from src.data import prepare_dataset_dirichlet, load_client_data
 from src.model import BaseRepresentation, ClientHead
-from src.client import FedRepClient
+# from src.client import FedRepClient
+from src.client_fedavg import FedAvgClient
 
 # 1. ADD THIS FUNCTION to calculate the weighted average of client accuracies
 def weighted_average(metrics):
@@ -32,7 +33,7 @@ def main():
         )
         base_model = BaseRepresentation()
         head_model = ClientHead()
-        return FedRepClient(cid, base_model, head_model, trainloader, valloader, config, device)
+        return FedAvgClient(cid, base_model, head_model, trainloader, valloader, config, device)
 
     # 2. UPDATE THE STRATEGY to include the evaluate_metrics_aggregation_fn
     strategy = fl.server.strategy.FedAvg(
