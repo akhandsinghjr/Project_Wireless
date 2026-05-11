@@ -895,6 +895,117 @@ INFO :
 Final Aggregated Accuracy: 89.02%
 
 
+Dirichlet = 1.0
+
+INFO :      [SUMMARY]
+INFO :      Run finished 50 round(s) in 1372.70s
+INFO :          History (loss, distributed):
+INFO :                  round 1: 0.43948204206487534
+INFO :                  round 2: 0.32283010319354993
+INFO :                  round 3: 0.31175690304701764
+INFO :                  round 4: 0.32359147951689843
+INFO :                  round 5: 0.32904646109407726
+INFO :                  round 6: 0.30985479579640285
+INFO :                  round 7: 0.33766102762078115
+INFO :                  round 8: 0.30867758333018736
+INFO :                  round 9: 0.38290373528497695
+INFO :                  round 10: 0.3087477418752239
+INFO :                  round 11: 0.3666893276328271
+INFO :                  round 12: 0.3392582044939165
+INFO :                  round 13: 0.3366070798678946
+INFO :                  round 14: 0.3633256317698353
+INFO :                  round 15: 0.3342765692424509
+INFO :                  round 16: 0.3463238598118171
+INFO :                  round 17: 0.4196513842749707
+INFO :                  round 18: 0.3710555539698888
+INFO :                  round 19: 0.37385487464260925
+INFO :                  round 20: 0.388444901142304
+INFO :                  round 21: 0.38737575806621427
+INFO :                  round 22: 0.4096071763785935
+INFO :                  round 23: 0.40266429126817493
+INFO :                  round 24: 0.4693948711370311
+INFO :                  round 25: 0.41096084146830464
+INFO :                  round 26: 0.42799136638178964
+INFO :                  round 27: 0.4372995965011964
+INFO :                  round 28: 0.4316006958541676
+INFO :                  round 29: 0.4619298016802999
+INFO :                  round 30: 0.4672281948368991
+INFO :                  round 31: 0.44655079416998694
+INFO :                  round 32: 0.4689374844260413
+INFO :                  round 33: 0.48199800441913304
+INFO :                  round 34: 0.49225383971663195
+INFO :                  round 35: 0.49429951913527775
+INFO :                  round 36: 0.45970765318187623
+INFO :                  round 37: 0.47262385703972687
+INFO :                  round 38: 0.47026854141253005
+INFO :                  round 39: 0.4687335347958441
+INFO :                  round 40: 0.49058538293525406
+INFO :                  round 41: 0.5020892973048251
+INFO :                  round 42: 0.48057760137601674
+INFO :                  round 43: 0.4816883364214166
+INFO :                  round 44: 0.4896619459227782
+INFO :                  round 45: 0.552312101091806
+INFO :                  round 46: 0.4896137053058146
+INFO :                  round 47: 0.5047917217183066
+INFO :                  round 48: 0.5111212814116277
+INFO :                  round 49: 0.5000250847461059
+INFO :                  round 50: 0.5055147589222371
+INFO :          History (metrics, distributed, evaluate):
+INFO :          {'accuracy': [(1, 0.8483),
+INFO :                        (2, 0.8813),
+INFO :                        (3, 0.8902),
+INFO :                        (4, 0.8855),
+INFO :                        (5, 0.8915),
+INFO :                        (6, 0.8962),
+INFO :                        (7, 0.8967),
+INFO :                        (8, 0.8995),
+INFO :                        (9, 0.8905),
+INFO :                        (10, 0.9047),
+INFO :                        (11, 0.9008),
+INFO :                        (12, 0.9052),
+INFO :                        (13, 0.9029),
+INFO :                        (14, 0.9042),
+INFO :                        (15, 0.9073),
+INFO :                        (16, 0.9062),
+INFO :                        (17, 0.9001),
+INFO :                        (18, 0.9055),
+INFO :                        (19, 0.9063),
+INFO :                        (20, 0.9074),
+INFO :                        (21, 0.9083),
+INFO :                        (22, 0.9068),
+INFO :                        (23, 0.9086),
+INFO :                        (24, 0.9003),
+INFO :                        (25, 0.9086),
+INFO :                        (26, 0.9063),
+INFO :                        (27, 0.9052),
+INFO :                        (28, 0.907),
+INFO :                        (29, 0.9054),
+INFO :                        (30, 0.9063),
+INFO :                        (31, 0.9074),
+INFO :                        (32, 0.9006),
+INFO :                        (33, 0.9025),
+INFO :                        (34, 0.9019),
+INFO :                        (35, 0.9031),
+INFO :                        (36, 0.9085),
+INFO :                        (37, 0.9067),
+INFO :                        (38, 0.9079),
+INFO :                        (39, 0.9118),
+INFO :                        (40, 0.907),
+INFO :                        (41, 0.9042),
+INFO :                        (42, 0.9088),
+INFO :                        (43, 0.9027),
+INFO :                        (44, 0.9065),
+INFO :                        (45, 0.9032),
+INFO :                        (46, 0.9075),
+INFO :                        (47, 0.9074),
+INFO :                        (48, 0.9079),
+INFO :                        (49, 0.9083),
+INFO :                        (50, 0.9083)]}
+
+=== FINAL RESULTS ===
+Final Aggregated Accuracy: 90.83%
+
+
 
 Dirichlet = 'IID'
 
